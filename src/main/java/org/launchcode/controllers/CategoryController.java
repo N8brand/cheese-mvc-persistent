@@ -26,7 +26,7 @@ public class CategoryController {
         model.addAttribute("categories", categories);
         model.addAttribute("title", "Categories");
 
-        return "cheese/index";
+        return "category/index";
     }
 
     @RequestMapping(value = "add")
